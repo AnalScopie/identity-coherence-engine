@@ -1,4 +1,5 @@
-## 🤖 Demo: AI + Data Coherence
+> Identity data coherence engine designed to improve data reliability before AI processing.
+> ## 🤖 Demo: AI + Data Coherence
 
 This project includes a simple demonstration showing how normalized data improves downstream AI processing.
 
