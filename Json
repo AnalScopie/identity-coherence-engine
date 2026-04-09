@@ -1,0 +1,6 @@
+identity-coherence-engine/
+│
+├── main.py
+├── input.json
+├── README.md
+└── audit_example.log
