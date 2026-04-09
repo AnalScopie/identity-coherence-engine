@@ -3,29 +3,4 @@
   "last_name": "dupont",
   "email": "JEAN.DUPONT@MAIL.COM ",
   "phone": "06 12 34 56 78"
-}    log.append(f"email: '{data.get('email')}' → '{new_email}'")
-    output["email"] = new_email
-
-    new_phone = normalize_phone(data.get("phone", ""))
-    log.append(f"phone: '{data.get('phone')}' → '{new_phone}'")
-    output["phone"] = new_phone
-
-    return output, log
-
-def run():
-    with open("input.json", "r") as f:
-        data = json.load(f)
-
-    result, log = process_identity(data)
-
-    with open("output.json", "w") as f:
-        json.dump(result, f, indent=2)
-
-    with open("audit.log", "w") as f:
-        f.write(f"Audit log - {datetime.now()}\n\n")
-        for entry in log:
-            f.write(entry + "\n")
-
-if __name__ == "__main__":
-    run()
-
+}
