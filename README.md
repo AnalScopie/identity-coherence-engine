@@ -45,3 +45,11 @@ Entrée :
   "email": "JEAN.DUPONT@MAIL.COM "
 }# identity-coherence-engine
 User-side identity data normalization and audit engine
+---
+
+## 🔥 Advanced Demo
+
+Run:
+
+```bash
+python advanced_demo.py
