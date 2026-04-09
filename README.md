@@ -1,3 +1,12 @@
+## 🤖 Demo: AI + Data Coherence
+
+This project includes a simple demonstration showing how normalized data improves downstream AI processing.
+
+Run:
+
+```bash
+python demo.py
+
 # 🔵 Identity Coherence Engine
 
 Moteur de normalisation et d’audit des données d’identité côté utilisateur.
