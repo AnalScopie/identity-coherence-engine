@@ -1,4 +1,6 @@
 {
   "first_name": "Jean",
-  "email": "jean.dupont@mail.com"
+  "last_name": "Dupont",
+  "email": "jean.dupont@mail.com",
+  "phone": "0612345678"
 }
