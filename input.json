@@ -1,40 +1,9 @@
-## 🧪 Exemple
-
-Entrée :
-
-```json
 {
   "first_name": "  jean ",
   "last_name": "dupont",
   "email": "JEAN.DUPONT@MAIL.COM ",
   "phone": "06 12 34 56 78"
-}
-import json
-from datetime import datetime
-
-def normalize_name(name):
-    return name.strip().capitalize()
-
-def normalize_email(email):
-    return email.strip().lower()
-
-def normalize_phone(phone):
-    return phone.replace(" ", "")
-
-def process_identity(data):
-    log = []
-    output = {}
-
-    new_first = normalize_name(data.get("first_name", ""))
-    log.append(f"first_name: '{data.get('first_name')}' → '{new_first}'")
-    output["first_name"] = new_first
-
-    new_last = normalize_name(data.get("last_name", ""))
-    log.append(f"last_name: '{data.get('last_name')}' → '{new_last}'")
-    output["last_name"] = new_last
-
-    new_email = normalize_email(data.get("email", ""))
-    log.append(f"email: '{data.get('email')}' → '{new_email}'")
+}    log.append(f"email: '{data.get('email')}' → '{new_email}'")
     output["email"] = new_email
 
     new_phone = normalize_phone(data.get("phone", ""))
