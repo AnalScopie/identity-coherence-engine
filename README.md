@@ -54,3 +54,5 @@ Run:
 
 ```bash
 python advanced_demo.py
+
+![Identity Coherence Engine Logo](file_00000000a2f872468166d7f659940786.png)
