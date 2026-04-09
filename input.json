@@ -1,3 +1,14 @@
+## 🧪 Exemple
+
+Entrée :
+
+```json
+{
+  "first_name": "  jean ",
+  "last_name": "dupont",
+  "email": "JEAN.DUPONT@MAIL.COM ",
+  "phone": "06 12 34 56 78"
+}
 import json
 from datetime import datetime
 
