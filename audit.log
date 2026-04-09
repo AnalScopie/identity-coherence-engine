@@ -1,0 +1,6 @@
+Audit log example
+
+first_name: '  jean ' → 'Jean'
+last_name: 'dupont' → 'Dupont'
+email: 'JEAN.DUPONT@MAIL.COM ' → 'jean.dupont@mail.com'
+phone: '06 12 34 56 78' → '0612345678'
