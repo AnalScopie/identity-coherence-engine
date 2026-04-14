@@ -8,6 +8,18 @@ Run:
 ```bash
 python demo.py
 
+## Intellectual Property Notice
+
+While the source code in this repository is licensed under the MIT License, 
+the underlying conceptual framework, system architecture, and decision logic 
+(“Identity Coherence Engine”) are not fully covered by this license.
+
+These elements constitute proprietary intellectual work and may not be reused, 
+replicated, or commercialized without explicit permission from the author.
+
+The MIT License applies strictly to the code implementation, not to the 
+theoretical model, system design, or cognitive frameworks described herein.
+
 # 🔵 Identity Coherence Engine
 
 Moteur de normalisation et d’audit des données d’identité côté utilisateur.
