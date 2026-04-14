@@ -68,3 +68,14 @@ Run:
 python advanced_demo.py
 
 ![Identity Coherence Engine Logo](file_00000000a2f872468166d7f659940786.png)
+## Usage Restriction (Conceptual Layer)
+
+This repository contains both technical implementation and higher-level 
+methodological constructs.
+
+Any attempt to reproduce or derive the underlying system logic, evaluation 
+methods, or conceptual architecture for commercial or competitive purposes 
+without authorization is explicitly discouraged.
+
+For licensing inquiries regarding the full system or its conceptual components, 
+please contact the author.
